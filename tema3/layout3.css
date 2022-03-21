@@ -37,23 +37,19 @@ nav > button:hover {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-.free {
+ .free {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1em;
-	flex: 1;
-	padding: 20px;
+	flex:1;
+	padding: 60px;
+	margin-left:20px;
 }
-.vl{
-    border-left: 2px solid black;
-    height: 50px;
-    margin-left:20px;
-}
+
 .tag2 {
 	position: absolute;
 	height: 100px;
 	width: 600px;
 	background-color: rgb(5, 48, 104);
-	z-index: 1000;
 	color: #fff;
 	display: flex;
 	align-items: center;
@@ -61,7 +57,7 @@ nav > button:hover {
 	margin-left: 210px;
 	margin-top: 340px;
 	font-family: "Times New Roman", Times, serif;
-	font-size: 3.8em;
+	font-size: 3.0em;
 }
 img {
 	height: 500px;
@@ -74,11 +70,34 @@ img {
 	font-size: 1.4em;
 	border-bottom: 1px dashed white;
 	padding: 10px;
+	
 }
-.tag3 {
+.tag2 {
+	position:absolute;
+	height: 100px;
+	width: 550px;
+	background-color: rgb(35, 116, 225);
+	
+	color: #fff;
+	display: flex;
+	align-items:flex-start;
+	justify-content:flex-end;
+	margin-left: 410px;
+	margin-top: 500px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 3.0em;
+}
+.tag  {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.2em;
 	padding: 10px;
+	margin-left: 20px;
+	margin-top: 15px;
+	border: 5px;
+	border-style: double;
+	background-color:rgb(5, 48, 104);
+	width: 300px;
+	height:500 ;
 }
 .articles {
 	display: flex;
@@ -93,7 +112,7 @@ img {
 	width: 270px;
 	margin-bottom: 25px;
 }
-.first {
+.t1 {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.2em;
 	border-bottom: 1px solid #bbb;
@@ -103,7 +122,7 @@ img {
 	margin-right: 15px;
 	font-weight: 550;
 }
-.second {
+.t2 {
 	height: 75px;
 	width: 220px;
 	background-color: #444;
@@ -117,16 +136,16 @@ img {
 	justify-content: center;
 	align-items: center;
 }
-.thirt {
+.t3 {
 	padding: 25px;
 }
-.fourth {
-	color: rgb(35, 116, 225);
+.t4 {
+	color: rgb(5, 48, 104);
 	font-weight: 600;
 	float: right;
 	margin-right: 20px;
 }
-#free2 {
+#text {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -143,7 +162,7 @@ img {
 }
 .poza160 {
 	height: 160px;
-	width: 200px;
+	width: 600px;
 	background-color: #444;
 	color: white;
 	border: 5px;
@@ -156,7 +175,7 @@ img {
 .info {
 	width: 350px;
 }
-.fifth {
+.t5 {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.2em;
 	border-bottom: 1px solid #ddd;
@@ -166,29 +185,28 @@ img {
 
 	font-weight: 550;
 }
-.sixth {
+.t6 {
 	padding: 25px;
 }
-.seventh {
-	color: rgb(35, 116, 225);
+.t7 {
+	color: rgb(5, 48, 104);
 	font-weight: 600;
 	float: right;
 	margin-right: 20px;
 }
 
-.categories {
+.links {
 	display: flex;
 	justify-content: space-evenly;
-	align-items: flex-start;
+	align-items:flex-start;
 	flex-direction: column;
-	/* background-color: #aaa; */
 	height: 200px;
 	width: 300px;
 	margin-top: 25px;
 	margin-bottom: 20px;
 	background-color: #eee;
 }
-.eight {
+.t8 {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.2em;
 	border-bottom: 2px dashed #ccc;
@@ -198,17 +216,17 @@ img {
 	width: 290px;
 }
 .categories #first {
-	color: rgb(35, 116, 225);
+	color:rgb(5, 48, 104);
 	border-bottom: 1px solid #ccc;
 	width: 300px;
 }
-.secondNav {
+.secondaryNav {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	margin-top: 10px;
 }
-.secondNav div {
+.secondaryNav div {
 	height: 100px;
 	width: 160px;
 	background-color: #444;
@@ -224,7 +242,7 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: rgb(35, 116, 225);
+	background-color: rgb(5, 48, 104);
 	color: White;
 	margin-left: 20px;
 	margin-right: 20px;
