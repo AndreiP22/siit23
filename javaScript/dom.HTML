@@ -1,1 +1,27 @@
-{\rtf1}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DOM</title>
+        <script>
+            function clickMe(){
+                let input = document.querySelector("#a")
+                let bInput = document.querySelector("#b")
+                let a = Number (aInput.value);
+                let b = Number (bInput.value);
+                let m = max (a,b);
+                let parImpar = par(numar); 
+                let div = document.querySelector("#result")
+                div.innerHTML = `Maximul dintre ${a} si ${b} este <b> ${m}</b> ` ;
+            }
+        </script>
+    </head>
+    <body>
+        <input type="number" id="a" placeHolder="First number"/>
+        <input type="number" id="b" placeHolder="second number" />
+
+        <button onclick="clickMe(); ">   </button>
+    </body>
+</html>
